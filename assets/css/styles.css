@@ -1,0 +1,160 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+
+
+/*estudiar mejor el header para entenderlo mejro sobre el 
+justify content */
+header{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+    border: 2px solid black;
+    display:flex;
+    color: azure;
+    background-color: #84997c;
+    height: 70px;
+    justify-content: space-between;/*estudiarlo */
+    padding: 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-shadow: 5px 5px 5px black;
+    
+} 
+.logo{
+    
+    display:flex;
+    align-items: center;
+    
+    
+}
+.logo-img{
+    margin-right: 10px;
+
+}
+nav{
+    display:flex;
+    align-items: center;
+    padding: 10px;
+    
+}
+nav a{
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none; /*para quitarle la decoracion al texto */
+}
+
+body{
+        background-color: #94a28b;
+}
+.prueba{
+    border: 2px solid black;
+    border-radius: 15px;
+    background-color: white;
+    margin: 15px;
+    padding: 15px;
+
+}
+.prueba1{
+    border:2px solid black;
+    background-color: #94a28b;
+    border-radius: 15px;
+    padding: 5px;
+    margin: 5px;
+
+
+
+}
+.perfilfondo{
+    padding: 5px;
+    background-color: white;
+    border-radius: 15px;
+    margin: 5px;
+}
+.perfil{
+    background-color:#94a28b;
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid rgb(0, 0, 0);
+    padding: 10px;
+    margin: 5px;
+}
+.caja-imagen {
+    
+    margin: 10px;
+    display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: center;
+	align-items: center;
+	align-content: center;
+}
+.caja-imagen img{
+    border: 2px solid black;
+
+}
+
+
+h2{
+    text-align: center;
+    
+}
+p{
+    text-align: center;
+
+}
+
+
+
+
+.contenedor{
+    display: flex;
+    border: 2px solid beige;
+    border-radius: 20px;
+    padding: 5px;
+    margin: 5px;
+    background-color: aliceblue;
+   
+}
+.caja{
+    
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    flex: 1; /*para que todas las cajas tomen el mismo tamaño sin importar el contenido*/
+}
+.caja1{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #84997c;
+    border: 2px solid black;
+    border-radius: 20px;
+    
+}
+.caja2{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #84997c;
+    border: 2px solid black;
+    border-radius: 20px;
+
+}
+.caja3{
+    border: 2px solid rgb(255, 255, 255);
+    background-color: #84997c;
+    border: 2px solid black;
+    border-radius: 20px;
+    
+}
+.cajas{
+    
+}
+.contenedor1{
+    display: flex;
+    flex-direction: column;
+    border-radius: 10px;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 10px;
+    margin: 5px;
+    margin-bottom: 50px ;
+}
